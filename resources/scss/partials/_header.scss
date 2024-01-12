@@ -1,0 +1,45 @@
+.section_header_top{
+    background-color: hsl(208.67deg 100% 48.82%); 
+    height: 30px;
+     
+}
+
+.header_top{
+    width: 80%;  
+    height: 100%;     
+    background-color: red; 
+    margin: auto;
+}
+
+h6{
+    line-height: 30px;
+    color: white;
+}
+
+
+header ul{
+    list-style-type: none;
+    background-color: green;
+}
+a{
+    text-decoration: none !important; 
+    color: black !important;
+}
+
+input{
+    border: none;
+    text-align: right;
+    border-bottom: 2px solid blue;
+    width: 100px;
+}
+button{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid blue;
+}
+
+.section_header_bot{
+    width: 80%;
+    background-color: orange;
+    margin: auto;
+}
