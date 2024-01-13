@@ -13,11 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('comics');
+Route::get('/comics', function () {
+    $comics = config('db');
+    // dd($comics);
+    return view('comics', compact('comics'));
 })->name ('comics');
 
-Route::get('/characters', function () {
+Route::get('/', function () {
     return view('characters');
 })->name ('characters');
 

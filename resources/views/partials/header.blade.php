@@ -6,7 +6,7 @@
         </div>
     </section>
 
-    <section class="section_header_bot d-flex justify-content-between align-items-center">
+    <section class="section_header_bot d-flex justify-content-between align-items-center py-3">
             <div>
                 <img src="{{Vite::asset('resources/img/dc-logo.png') }}" alt="logo-dc">
             </div>      
